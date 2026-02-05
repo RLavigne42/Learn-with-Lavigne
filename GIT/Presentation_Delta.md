@@ -4,7 +4,7 @@ This document compares how the two presentations approach the same Git setup con
 
 ## High-Level Contrast (Approach & Tone)
 
-| Dimension | Crash Course: Git (Influencer Mode) | Zero-to-Mastery: Git Setup (Initial Presentation) |
+| Dimension | Crash Course: Git (Influencer Mode) | Zero-to-Mastery: Git Setup (Presenter Mode) |
 | --- | --- | --- |
 | **Tone** | High-energy, punchy, provocative (“Stay sharp,” “jabroni,” “controlled chaos”). | Calm, professional, outcome-driven (“clean, professional Git you can trust”). |
 | **Narrative hook** | Starts with personal tenure + swagger to establish authority. | Starts with a promise of concrete outcomes and reduced friction. |
