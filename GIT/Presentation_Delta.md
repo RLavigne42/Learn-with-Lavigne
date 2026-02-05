@@ -1,4 +1,4 @@
-# Presentation Delta: Crash Course vs Zero-to-Mastery
+# Presentation Style Delta: Crash Course vs Zero-to-Mastery
 
 This document compares how the two presentations approach the same Git setup content, using their presentation markdown files as the reference point.
 
