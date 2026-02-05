@@ -1,4 +1,4 @@
-# The Expert-Bro Dialectic: A Comprehensive Analysis of the "Presenter Mode" Synthetic Semantic Framework for High-Retention Digital Pedagogy
+# The Expert-Bro Dialectic: A Comprehensive Analysis of the "Influencer Mode" Synthetic Semantic Framework for High-Retention Digital Pedagogy
 
 ## 1. Introduction: The Evolution of Digital Authority and the "Trust Deficit"
 The digital information landscape has undergone a radical transformation in the last decade, characterized fundamentally by a collapse of traditional institutional authority and the rise of distributed, personality-driven expertise. This shift, driven by the democratization of content creation and the algorithmic prioritization of engagement, has necessitated the development of new communicative frameworks. Traditional didactic models—characterized by formal academic language, slow pacing, and emotional detachment—have proven increasingly ineffective in an attention economy governed by high-velocity dopamine loops and "scroll reflexes".
