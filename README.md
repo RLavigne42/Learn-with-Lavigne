@@ -2,8 +2,6 @@
 
 https://learnwithlavigne.com
 
-[Learn-with-Lavigne](https://github.com/RLavigne42/Learn-with-Lavigne/blob/main/Learn-with-Lavigne.jpg)
-
 ## Course Variants
 
 Learn with Lavigne ships two complementary presentation styles for the same curriculum, aligned to the Synthetic Semantic Framework guides:
