@@ -1,4 +1,4 @@
-[Learn with Lavigne](https://github.com/RLavigne42/Learn-with-Lavigne/blob/main/Learn_with_Lavigne_2JWfRhC6_4x.jpg)
+![Learn with Lavigne](https://github.com/RLavigne42/Learn-with-Lavigne/blob/main/Learn_with_Lavigne_2JWfRhC6_4x.jpg)
 
 # Learn with Lavigne
 
