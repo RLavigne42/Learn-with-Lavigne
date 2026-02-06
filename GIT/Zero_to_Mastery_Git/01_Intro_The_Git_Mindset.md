@@ -1,6 +1,6 @@
 ## 1) The Hook & The Anchor (what you’re building and why it matters)
 
-My goal here is simple: by the end, you’ll have Git installed, verified, configured with sane defaults, and you’ll be able to start a repository without stepping on the classic rakes (wrong identity, line-ending chaos, broken SSH keys, or confusing default branches). The “deliverable” is a working Git setup you can trust on day one, not a pile of commands you half-remember. If you want a “cheat sheet” artifact, tell me your OS (Windows/macOS/Linux) and whether you use GitHub/GitLab/Bitbucket, and I’ll generate a one-page setup checklist you can keep in your repo’s `docs/` folder.
+My goal here is simple: by the end, you’ll have Git installed, verified, configured with sane defaults, and you’ll be able to start a repository without stepping on the classic rakes (wrong identity, line-ending chaos, broken SSH keys, or confusing default branches). The “deliverable” is a working Git setup you can trust on day one, not a pile of commands you half-remember.
 
 Whether you’re brand new or you’ve used Git for years but still feel like it’s mysterious, the setup phase is where most long-term pain starts. A clean configuration is like setting your keyboard layout correctly: you only notice it when it’s wrong, and then it’s a constant tax. We’ll do it once, quickly, and verify each step so you can move on to actual work.
 
