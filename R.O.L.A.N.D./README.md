@@ -1,5 +1,7 @@
 # R.O.L.A.N.D.
 
+[R.O.L.A.N.D. - Robust Operational Learning And Neural Development](https://www.amazon.com/dp/B0DT9TXFY8)
+
 R.O.L.A.N.D. (Robust Operational Learning And Neural Development) is a pair of prompt frameworks used to drive structured, academic-style reporting with explicit ethical and reasoning guidance. The frameworks live in this directory as system-prompt specifications for different inference configurations.
 
 ## Frameworks and assigned models
