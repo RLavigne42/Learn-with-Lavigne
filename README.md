@@ -2,6 +2,8 @@
 
 https://learnwithlavigne.com
 
+> **Disclaimer:** Output generated for this repository is initially governed by a R.O.L.A.N.D.-generated plan for CODEX to execute against, with the goal of producing the final Markdown output via pull requests to this GitHub repo.
+
 ## Course Variants
 
 Learn with Lavigne ships two complementary presentation styles for the same curriculum, aligned to the Synthetic Semantic Framework guides:
