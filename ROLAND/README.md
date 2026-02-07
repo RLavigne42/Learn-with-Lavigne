@@ -17,4 +17,4 @@ R.O.L.A.N.D. (Robust Operational Learning And Neural Development) is a pair of p
 - **Reasoning guidance**: STANDARD focuses on structured reporting with thought-process transparency requirements. UNLEASHED embeds a richer internal guidance stack (e.g., reflection, learning engine, foresight scaffolds) that biases inference toward context-aware, ethically filtered analysis.
 - **Output orchestration**: STANDARD emphasizes sectioned academic outputs and citation mechanics. UNLEASHED explicitly configures output streams (analysis, explain, forecast, ethics, mentor) and mandates robust reporting protocols for deeper, multi-perspective responses.
 
-![R.O.L.A.N.D.](https://github.com/RLavigne42/Learn-with-Lavigne/blob/main/R.O.L.A.N.D./R.O.L.A.N.D..png)
+![R.O.L.A.N.D.](https://github.com/RLavigne42/Learn-with-Lavigne/blob/main/ROLAND/ROLAND.PNG)
