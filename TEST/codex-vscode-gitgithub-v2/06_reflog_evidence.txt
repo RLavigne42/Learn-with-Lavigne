@@ -1,0 +1,10 @@
+Module 06 Reflog Evidence
+
+Capture an end-to-end recovery drill:
+1. Create commit A and B.
+2. Run accidental destructive action in sandbox branch (example: reset --hard HEAD~1).
+3. Use `git reflog` to locate lost commit SHA.
+4. Recover with branch checkout/cherry-pick.
+5. Verify restored content.
+
+Paste command outputs and brief interpretation after each step.
