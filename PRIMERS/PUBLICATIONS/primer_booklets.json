@@ -1,0 +1,130 @@
+{
+  "publication_series": "PRIMERS/PUBLICATIONS",
+  "notes": [
+    "Source preserved from user specification.",
+    "model and temperature intentionally omitted per instruction.",
+    "Includes short_question and long_form_question."
+  ],
+  "booklets": [
+    {
+      "booklet_number": 1,
+      "booklet_title": "What AI Really Is: An Intuitive Guide to LLMs",
+      "sections": [
+        {
+          "section_title": "1. Introduction: What is 'Thinking' for a Computer?",
+          "url_slug": "primer/intro-what-is-ai",
+          "short_question": "In plain language, what does it mean for an AI to be 'smart,' and what are its biggest strengths and weaknesses?",
+          "long_form_question": "Provide a deeply intuitive, high-level, and analogy-rich introduction to Large Language Models (LLMs) for a complete beginner, assuming zero technical knowledge. The primary goal is to build a conceptual 'feel' for AI, not a technical definition. This prompt *must* strictly avoid *all* jargon (e.g., 'parameters', 'training', 'architecture', 'model'). Instead, explain: (1) What 'smart' means for a computer, using an analogy like 'a world-class parrot' or 'a predictive autocomplete'. (2) How machines 'learn' from 'patterns' (e.g., 'reading all the books in a library to see which words most often appear together'). (3) Critically, explain *why* LLMs don't 'think' or 'feel' like humans, but are 'prediction engines' for text. (4) Use a simple, real-world metaphor to explain 'hallucinations' (e.g., 'when a student confidently guesses an answer instead of saying \"I don't know\"'). (5) Explain *why* the data an AI 'reads' is so important (e.g., 'if it only reads sad books, it will have a sad view of the world'). (6) Conclude by defining the core 'strength' (e.g., 'summarizing, rephrasing') vs. 'weakness' (e.g., 'not understanding truth', 'no common sense') in plain, non-technical language."
+        }
+      ]
+    },
+    {
+      "booklet_number": 2,
+      "booklet_title": "Understanding the Building Blocks: Language, Tokens, and Data",
+      "sections": [
+        {
+          "section_title": "1. Introduction: The 'Lego Blocks' of AI Language",
+          "url_slug": "primer/blocks-tokens-data",
+          "short_question": "What are the basic building blocks of AI language systems, and how should a beginner think about them?",
+          "long_form_question": "Provide a foundational, conceptual explanation of the *components* of an LLM, using simple, real-world metaphors. This prompt *must* follow the user's 'Beginner' rules: no code, no jargon. (1) You *must* use the 'Lego Blocks' analogy to explain 'tokens' (e.g., 'how an AI must break down a complex sentence ('a castle') into individual 'Lego pieces' ('words' or 'parts-of-words') to understand it'). (2) Explain 'data' using an analogy like 'the AI's library' or 'its collection of text and books'. (3) Differentiate 'structured' vs. 'unstructured' data using a simple metaphor (e.g., 'a perfectly organized spreadsheet' vs. 'a messy pile of notes and books'). (4) Explain 'model size' *without* using the word 'parameters' (e.g., 'the size of the AI's brain' or 'how much information it can hold at once'). (5) Explain 'fine-tuning' using the user's 'special lessons' analogy (e.g., 'the AI has read the whole library, but now we are giving it 'special lessons' by making it read *only* the 'medical' books 100 times')."
+        }
+      ]
+    },
+    {
+      "booklet_number": 3,
+      "booklet_title": "How LLMs Get Smart: A Gentle Intro to Model Training",
+      "sections": [
+        {
+          "section_title": "1. Introduction: How an AI 'Practices' to Get Better",
+          "url_slug": "primer/training-how-llms-learn",
+          "short_question": "How does an AI improve over time, and what can go wrong when it studies too much or too little?",
+          "long_form_question": "Provide a conceptual, analogy-rich overview of the 'training process' from a beginner's perspective. You *must not* use technical terms like 'gradient descent', 'backpropagation', or 'loss function'. (1) You *must* use the 'guess -> get feedback -> improve' loop as the core concept, using an analogy like 'a student practicing flashcards' (e.g., 'The AI 'guesses' the next word, the 'teacher' (the data) says 'no, this was the right word', and the AI 'corrects' its guess for next time'). (2) Explain *why* this takes so long (e.g., 'it's not practicing 100 flashcards, it's practicing *one trillion* of them'). (3) Explain 'overfitting' with a simple metaphor (e.g., 'the student *memorized* the *exact questions and answers* from the practice test, but never learned the *actual subject*, so they fail when asked a new question'). (4) Explain 'underfitting' (e.g., 'the student didn't study enough and fails all the questions'). (5) Explain 'forgetting' (e.g., 'after learning about medicine, the AI 'forgets' some of its knowledge about poetry')."
+        }
+      ]
+    },
+    {
+      "booklet_number": 4,
+      "booklet_title": "Thinking With Machines: How LLMs Generate Answers",
+      "sections": [
+        {
+          "section_title": "1. Introduction: How an AI Decides 'What's Next?'",
+          "url_slug": "primer/generation-how-llms-think",
+          "short_question": "How does an AI generate each next word, and why do settings and memory limits affect the output?",
+          "long_form_question": "Provide an intuitive, conceptual guide to the 'inference' (generation) process. You *must not* use terms like 'inference', 'autoregressive', or 'KV cache'. (1) Explain the core idea as 'super-autocomplete' (e.g., 'The AI is *always* just predicting the 'most likely' next word or 'Lego block' based on all the words that came before it'). (2) Explain 'prompts' as the 'starting-point' (e.g., 'giving the AI the first half of a sentence and asking it to finish'). (3) Explain 'temperature' using a simple metaphor like 'a creativity slider' (e.g., 'Temperature 0 = the most boring, predictable, \"safe\" next word. Temperature 1 = a more creative, wild, \"risky\" next word'). (4) Explain 'context limits' *without* using the word 'window' (e.g., 'An AI has a 'short-term memory' and can only 'remember' the last 10 pages of your chat; it forgets everything that came before.'). (5) Explain 'stuck loops' (e.g., 'why the AI sometimes gets 'stuck' and repeats the same phrase over and over')."
+        }
+      ]
+    },
+    {
+      "booklet_number": 5,
+      "booklet_title": "Intro to Prompting: Talking to AI Effectively",
+      "sections": [
+        {
+          "section_title": "1. Introduction: The 'Recipe' for a Good AI Answer",
+          "url_slug": "primer/prompting-basics",
+          "short_question": "What are the practical rules for writing better prompts, and how should beginners iterate when answers are weak?",
+          "long_form_question": "Provide a practical, beginner-friendly 'how-to' guide for writing effective prompts. This must be a 'recipe book' of simple, actionable rules, with *no* advanced concepts like 'flows' or 'programmatic' design. (1) Provide *concrete examples* of 'Bad Prompts' vs. 'Good Prompts' (e.g., 'Bad: \"Write about dogs\". Good: \"Write a 3-paragraph summary for a 5th grader on why Golden Retrievers are good family pets.\"'). (2) Explain 'giving the AI a role' (e.g., 'Act as a professional food critic and review this restaurant...'). (3) Explain 'giving constraints' (e.g., '...in one paragraph', '...in a friendly tone', '...for a beginner'). (4) Explain 'providing examples' (e.g., 'I want a summary in this format: Topic: ... Summary: ...'). (5) Most importantly, explain 'iteration' (e.g., 'Don't give up. If you get a bad answer, don't just ask the same thing. *Rephrase* your question, be *more specific*, and try again.')."
+        }
+      ]
+    },
+    {
+      "booklet_number": 6,
+      "booklet_title": "Intro to RAG: Helping AI Learn From Your Information",
+      "sections": [
+        {
+          "section_title": "1. Introduction: The 'Open-Book Test' for AI",
+          "url_slug": "primer/rag-open-book-analogy",
+          "short_question": "How can AI answer using my own documents first, like taking an open-book test?",
+          "long_form_question": "Provide a high-level, conceptual explanation of Retrieval-Augmented Generation (RAG). You *must* strictly avoid *all* technical terms: `RAG`, `vector`, `database`, `index`, `chunking`, `retrieval`. (1) You *must* use the 'Open-Book vs. Closed-Book Test' analogy (e.g., 'A normal AI is taking a test from 'memory' (a 'closed-book' test). A RAG AI is taking an 'open-book' test—it can 'look up' the answers in *your* documents first'). (2) Explain 'document breaking' with a metaphor (e.g., 'The AI can't read your 500-page book all at once. So, its 'assistant' (the 'retriever') first 'shreds' the book into 'individual pages' or 'paragraphs''). (3) Explain 'search' with a metaphor (e.g., 'When you ask a question, the 'assistant' 'searches' through all the 'shredded pages' and finds the *one* or *two* 'pages' that have the answer'). (4) Explain *why* this is useful (e.g., 'It lets the AI 'know' about your private files' and 'it helps the AI provide *citations* ('the answer came from page 52')')."
+        }
+      ]
+    },
+    {
+      "booklet_number": 7,
+      "booklet_title": "Beginner Agents: How AI Can Take Actions for You",
+      "sections": [
+        {
+          "section_title": "1. Introduction: Giving the AI 'Hands' to Help You",
+          "url_slug": "primer/agents-ai-with-hands",
+          "short_question": "What changes when AI is connected to tools so it can take actions, and where should human approval fit?",
+          "long_form_question": "Provide an intuitive, conceptual introduction to 'AI Agents'. You *must not* use terms like `ReAct`, `LangGraph`, `orchestration`, or `state-machine`. (1) You *must* use the 'Brain vs. Hands' analogy (e.g., 'A normal LLM is just a 'brain' in a jar—it can 'think' (predict text), but it can't *do* anything. An 'Agent' is the 'brain' *connected to 'hands'* (the 'tools')'). (2) Explain 'tools' with simple examples (e.g., 'a 'search-the-web' tool', 'a 'use-the-calculator' tool', 'a 'write-an-email' tool'). (3) Provide a simple, step-by-step example of an 'agentic' task (e.g., 'User: \"What's the weather in Paris and email it to my mom?\" -> Agent Step 1: 'Use search tool' -> Agent Step 2: 'Get \"80 degrees\"' -> Agent Step 3: 'Use email tool' to 'draft email to Mom'). (4) Explain 'human approval' as a 'safety-latch' (e.g., 'The agent 'drafts' the email, but it *waits for you* to 'click-send'')."
+        }
+      ]
+    },
+    {
+      "booklet_number": 8,
+      "booklet_title": "The Ecosystem: Intro to AI Tools & Workflows",
+      "sections": [
+        {
+          "section_title": "1. Introduction: The 'AI Restaurant' - What Happens Behind the Scenes",
+          "url_slug": "primer/ecosystem-restaurant-analogy",
+          "short_question": "Using a restaurant metaphor, what are the major parts of an AI app and how do cloud vs local setups differ?",
+          "long_form_question": "Provide a high-level, metaphorical explanation of the 'AI Tech Stack' for a complete non-technical beginner. You *must not* use terms like `Python`, `frameworks`, `servers`, or `containers`. (1) You *must* use the 'Restaurant Analogy': (a) The **'App'** (on your phone) is the **'Menu'** (the 'front-end'). (b) The **'API'** (the 'messenger') is the **'Waiter'** (who 'takes your order' (the 'prompt') 'to the kitchen'). (c) The **'AI Model'** (in 'the cloud') is the **'Kitchen'** (the 'back-end', where the 'work' is done). (2) Explain 'Cloud' vs. 'Local' (e.g., 'Cloud = a giant, professional 'kitchen' (e.g., Google's) that is very powerful but 'public'. Local = a 'small kitchen' on 'your own computer', which is 'slower' but 'private'). (3) Explain 'Enterprise AI' (e.g., 'a 'kitchen' built to serve 'an entire city') vs. 'Personal AI' (e.g., 'a 'kitchen' just for 'your family')."
+        }
+      ]
+    },
+    {
+      "booklet_number": 9,
+      "booklet_title": "Beginner AI Evaluation: How to Know If AI Is Working",
+      "sections": [
+        {
+          "section_title": "1. Introduction: How to 'Fact-Check' Your AI",
+          "url_slug": "primer/evaluation-fact-checking",
+          "short_question": "How can a beginner check whether an AI answer is relevant, believable, and verifiable?",
+          "long_form_question": "Provide a practical 'checklist' for a non-technical user on how to evaluate the *quality* of an AI's answer. You *must not* use *any* metrics (`BLEU`, `RAGAS`) or frameworks (`LLM-as-a-judge`, `Evals`). (1) Ask for a 'Beginner's QA Checklist'. (e.g., 'Check 1: The 'Plausibility' Check: Does this *sound* believable, or is it 'too good to be true'?'). (e.g., 'Check 2: The 'Relevance' Check: Did the AI *actually* answer my question, or did it 'change the subject' ('drift')?'). (e.g., 'Check 3: The 'Verification' Check: Can I 'fact-check' this? If the AI provided a 'source' (a 'citation'), *did I click it* and *is the answer actually there*?'). (2) Explain 'Hallucinations' in plain terms (e.g., 'When the AI *confidently makes things up* because it's a 'prediction-engine', not a 'truth-engine'.'). (3) Explain *how* to 'prompt' for a 'self-critique' (e.g., 'Show the user how to ask: \"Are you sure about that? Please double-check your facts and tell me if you made a mistake.\"')."
+        }
+      ]
+    },
+    {
+      "booklet_number": 10,
+      "booklet_title": "Safety, Ethics & Responsible AI for Beginners",
+      "sections": [
+        {
+          "section_title": "1. Introduction: Being a 'Responsible Pilot' for AI",
+          "url_slug": "primer/safety-responsible-pilot",
+          "short_question": "What does responsible AI use look like for beginners, especially around bias, privacy, and made-up answers?",
+          "long_form_question": "Provide a high-level, conceptual guide to AI safety, ethics, and responsible use. You *must not* use 'industry' terms like `guardrails`, `adversarial attacks`, `jailbreaks`, or `red-teaming`. (1) You *must* use the 'AI as a powerful 'engine', but *you* are the 'pilot'' analogy. (2) Explain 'Bias' in simple terms (e.g., 'If the AI *only* 'reads' books 'written by men' (the 'data'), it will 'learn' a *biased* view of the world'). (3) Explain 'Data Safety' (e.g., 'Don't put your *private medical records* or *company secrets* into a 'public' AI. It's like 'shouting your secret' in a 'public park'. The AI 'learns' from it.'). (4) Explain 'Responsible Use' (e.g., 'Don't use an AI to 'write a mean email' or 'do something harmful'. *You* (the 'pilot') are *responsible* for 'where the 'engine' goes'.'). (5) Explain 'Fake but Confident Answers' (hallucinations) as the '#1 safety-risk' for a beginner (e.g., 'The AI *will* 'make up' a 'fact' and 'sound 100% confident'. *Always* 'verify'.')."
+        }
+      ]
+    }
+  ]
+}
