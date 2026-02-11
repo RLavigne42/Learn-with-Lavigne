@@ -1,11 +1,16 @@
-## 1) The Hook & The Anchor (what you’re building and why it matters)
+# Introduction: The Git Mindset in the Agentic Era
 
-My goal here is simple: by the end, you’ll have Git installed, verified, configured with sane defaults, and you’ll be able to start a repository without stepping on the classic rakes (wrong identity, line-ending chaos, broken SSH keys, or confusing default branches). The “deliverable” is a working Git setup you can trust on day one, not a pile of commands you half-remember.
+## The Shift to Agentic Engineering
 
-Whether you’re brand new or you’ve used Git for years but still feel like it’s mysterious, the setup phase is where most long-term pain starts. A clean configuration is like setting your keyboard layout correctly: you only notice it when it’s wrong, and then it’s a constant tax. We’ll do it once, quickly, and verify each step so you can move on to actual work.
+In the traditional Git mindset, the developer is the sole author of every commit. In 2026, the "Git Mindset" evolves to **Agentic Engineering**, where developers act as architects who orchestrate AI agents to perform the heavy lifting.
 
-## 2) Contextual Grounding & The Mental Model (what Git “is” in practice)
+- **From Typing to Steering:** Instead of writing every line, you define the *intent* and let the agent manage the *syntax*.
+- **Asynchronous Development:** You no longer block your terminal for long tasks. You delegate work to an agent that runs in a background thread or cloud container.
 
-Git solves one core problem: **safe, inspectable change over time**. The “old way” is copying folders like `project_final_v7_reallyfinal/`, which is manual, fragile, and impossible to audit. The “new way” is Git: every meaningful change becomes a checkpoint (a commit) with an author, timestamp, message, and a diff you can review.
+## The Three Surfaces
 
-In the ecosystem, you can think of two categories: **Git (the local version control tool)** and **a remote host (GitHub/GitLab/Bitbucket)**. Git works completely locally; the remote is for collaboration, backup, and code review. This matters because you can install and configure Git first, and only then decide how you want to authenticate to a remote (HTTPS vs SSH) without mixing concerns.
+Your Git workflow now spans three interfaces:
+
+1. **VS Code Insiders:** For real-time "Vibe Coding" and rapid iteration.
+2. **Copilot CLI:** For headless automation and quick context queries in the terminal.
+3. **Codex App (macOS):** For managing long-running, parallel agent sessions using Git worktrees.

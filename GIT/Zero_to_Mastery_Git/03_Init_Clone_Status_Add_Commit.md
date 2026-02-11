@@ -1,19 +1,15 @@
-## 4) “Start” Git (what that actually means)
+# Initialization and Smart Commits
 
-Git isn’t a server you “start.” You “start using Git” by either:
+## 1. Indexing the Repository
 
-1) **Initializing a repository** in a folder (`git init`), or  
-2) **Cloning** an existing repository (`git clone`).
+When you clone a repository, Codex needs to build a semantic map of the code.
 
-That distinction matters because `git init` creates a new history, while `git clone` imports an existing one with remotes already configured.
+- **Manual trigger:** Run `copilot index` in the CLI immediately after cloning. This helps prevent hallucinated file names.
+- **Verification:** Check the VS Code status bar and confirm the index is **Ready** before assigning complex tasks.
 
-Here’s the baseline “Hello World” of starting a repo:
+## 2. Agent-Assisted Staging and Committing
 
-```bash
-mkdir my-project
-cd my-project
-git init
-git status
-```
-
-`git status` is your dashboard. If you build one habit in Git, make it running `git status` constantly—it tells you what Git thinks is happening.
+- **Smart Add:** Instead of `git add .`, use the agent to selectively stage related changes.
+  - *Prompt:* "Stage only the changes related to the authentication refactor."
+- **Semantic Commits:** Agents can generate commit messages that follow your team convention (for example, Conventional Commits).
+  - *Command:* `copilot -p "Generate a commit message for the staged changes following our CONTRIBUTING.md style"`.

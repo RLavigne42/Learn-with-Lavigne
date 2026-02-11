@@ -1,15 +1,12 @@
-### 5.4 Line endings (Windows vs macOS/Linux) — the silent killer
+# Stashing, Tags, and Context Management
 
-This is the setup issue that causes “why did every file change?” diffs.
+## 1. `.copilotignore`
 
-- **Windows (typical):**
-```bash
-git config --global core.autocrlf true
-```
+Just as `.gitignore` prevents files from being tracked in Git, `.copilotignore` prevents sensitive or irrelevant files from being sent to AI models.
 
-- **macOS/Linux (typical):**
-```bash
-git config --global core.autocrlf input
-```
+- **Usage:** Add large data files, proprietary secrets, and auto-generated code to `.copilotignore` to save context window space and improve agent accuracy.
 
-If you’re in a team, the *best practice* is also adding a `.gitattributes` file to the repo to enforce line endings consistently, but that’s repo-level hygiene (we can do that next).
+## 2. Context Compaction
+
+- **Automatic:** The CLI compacts (summarizes) session history near token limits.
+- **Manual:** Use `/compact` to force a summary if the agent starts losing track of earlier instructions.

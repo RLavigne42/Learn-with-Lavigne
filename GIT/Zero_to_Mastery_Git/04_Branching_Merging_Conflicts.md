@@ -1,9 +1,15 @@
-## 6) The Senior-Dev “Gotchas” (the stuff that bites people later)
+# Branching, Merging, and Agent Worktrees
 
-First, don’t mix “global” and “repo” settings accidentally. Global config affects everything; repo config affects only that project. When debugging, always run:
+## 1. Threaded Worktrees (Codex App)
 
-```bash
-git config --list --show-origin
-```
+The Codex App changes how you handle branching by using **Git Worktrees** to run agents in parallel without disrupting your main workspace.
 
-Second, don’t commit before your identity is correct. You *can* fix it later, but rewriting history is annoying and sometimes not allowed on shared branches. Third, if your diffs look insane (entire files changed), suspect line endings or file mode changes; Git is honest, but it will faithfully record chaos if your settings create it.
+- **Workflow:** Assign a task (for example, "Refactor the API") and the app creates a hidden worktree (for example, `.codex/worktrees/task-123`).
+- **Benefit:** You can stay on `main` while multiple agents work simultaneously on separate feature branches.
+
+## 2. Resolving Conflicts with Agents
+
+Merge conflicts are no longer pure manual drudgery.
+
+- **Agent resolution:** When conflict occurs, invoke the agent: `@Codex resolve conflicts in src/utils.ts prioritizing the incoming change`.
+- **Verification:** The agent attempts the merge, runs the build to validate output, and presents results for final human sign-off.
