@@ -1,3 +1,11 @@
+
+#EXECUTE
+
+Use the plan below as an execution blueprint, not as reference-only. 
+
+#PLAN
+
+
 ## 0) Plan Metadata
 
 * **Plan ID:** `codex-vscode-gitgithub-v1`
@@ -315,5 +323,3 @@ next=<next action>
 * Rework loops MUST preserve prior artifacts and append deltas only.
 
 ---
-
-If you want, I can also output this as a single `codex_plan.md` file format (same content, ready to drop into your repo).
