@@ -1,0 +1,5 @@
+[2026-02-11 00:00 UTC] module=01 status=review_required
+summary=Created Module 01 orientation packet with primer, conventions, and quality gates in new test subdirectory (test 3).
+evidence=test/test_3_codex-vscode-gitgithub-v1/01_orientation.md; test/test_3_codex-vscode-gitgithub-v1/01_conventions.md; test/test_3_codex-vscode-gitgithub-v1/01_quality_gates.md
+risks=No runtime/tool verification executed in this packet; requires human sign-off before module completion.
+next=Await human review; if approved, mark module 01 completed and proceed to module 02 setup packet.

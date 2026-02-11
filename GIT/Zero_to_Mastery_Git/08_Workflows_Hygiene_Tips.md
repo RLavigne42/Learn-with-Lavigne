@@ -1,13 +1,24 @@
-## 7) A clean “production-ready” baseline config (copy/paste)
+# Agentic Workflows and Hygiene
 
-This is a sane starter set for many developers; adjust editor and autocrlf for your OS:
+## 1. Completion Proofs
 
-```bash
-git config --global init.defaultBranch main
-git config --global pull.rebase false
-git config --global fetch.prune true
-git config --global rebase.autoStash true
-git config --global core.editor "code --wait"
-```
+Never accept agent output without a **Completion Proof** artifact.
 
-This gives you a consistent default branch, avoids surprise rebases on pull (unless you choose that workflow), prunes deleted remote branches on fetch, and makes rebasing less painful.
+- **Format:** Require PR checklist evidence such as:
+  - ✅ Build Passed
+  - ✅ Tests Passed (45/45)
+  - ✅ Linting Clean
+- **Policy:** Enforce this standard in the `AGENTS.md` tooling section.
+
+## 2. Vibe Coding (Fast Iteration)
+
+For UI/frontend work, use "Vibe Coding" in VS Code Insiders.
+
+- **Technique:** Keep the browser open and stream intent-level prompts (for example, "Make it bigger" or "Change the color") without dropping into CSS details unless required.
+
+## 3. Skill Management
+
+Extend agent capabilities with **Skills**.
+
+- **Structure:** Create a `.codex/skills/` directory for reusable scripts/workflows (for example, a database migration skill).
+- **Manifest:** Ensure each skill includes a `SKILL.md` that defines activation criteria and usage instructions.

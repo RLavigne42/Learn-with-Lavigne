@@ -1,11 +1,14 @@
-### 5.5 Credential/auth: HTTPS vs SSH (pick one intentionally)
+# Remotes and Agent Pull Requests
 
-For most beginners, **HTTPS + credential manager** is the smoothest start. For long-term professional workflow, **SSH** is common because it’s stable and avoids repeated logins.
+## 1. Remote Agent Delegation
 
-You can check what helper you’re using:
+You can trigger agents directly on GitHub.com (the remote) without pulling code locally.
 
-```bash
-git config --global credential.helper
-```
+- **Issue trigger:** In a GitHub issue, comment `@Codex please implement this fix`.
+- **Result:** The agent spins up a cloud container, implements the code, pushes a branch, and opens a pull request automatically.
 
-If you want SSH (especially for GitHub), the workflow is: generate key → add to agent → add public key to Git host → test. If you tell me your host (GitHub/GitLab) and OS, I’ll give you the exact minimal commands and the one test command that proves it works.
+## 2. Pull Request Reviews
+
+- **Review agent:** Use the "Code-Review" agent to scan incoming pull requests before manual review.
+  - *Capability:* Filters noise and prioritizes logic errors plus security vulnerabilities.
+  - *Command:* `copilot pr review --focus="security"`.
