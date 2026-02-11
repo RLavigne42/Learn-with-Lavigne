@@ -1,0 +1,172 @@
+{
+  "publication_series": "BOOKLETS/PRIMER/PUBLICATIONS",
+  "notes": [
+    "Generated from BOOKLETS/PRIMER/plan.md.",
+    "Source JSON fields model and temperature intentionally omitted per request.",
+    "Includes short_question and long_form_question for each introduction.",
+    "Final section outputs are stored in per-booklet README.md files.",
+    "Prompt specs are stored as 01_prompt.md; final outputs are available in README.md and url_slug-named .md files."
+  ],
+  "booklets": [
+    {
+      "booklet_number": 1,
+      "booklet_title": "What AI Really Is: An Intuitive Guide to LLMs",
+      "folder": "BOOKLETS/PRIMER/PUBLICATIONS/01_What_AI_Really_Is_An_Intuitive_Guide_to_LLMs",
+      "sections": [
+        {
+          "section_title": "1. Introduction: What is 'Thinking' for a Computer?",
+          "url_slug": "primer/intro-what-is-ai",
+          "short_question": "In plain language, what does it mean for an AI to be 'smart,' and what are its biggest strengths and weaknesses?",
+          "long_form_question": "Provide a deeply intuitive, high-level, and analogy-rich introduction to Large Language Models (LLMs) for a complete beginner, assuming zero technical knowledge. The primary goal is to build a conceptual 'feel' for AI, not a technical definition. This prompt must strictly avoid all jargon (e.g., 'parameters', 'training', 'architecture', 'model'). Explain: 1. What 'smart' means for a computer (e.g., world-class parrot, predictive autocomplete). 2. How machines 'learn' from patterns (e.g., reading all books in a library to see what words appear together). 3. Why LLMs do not 'think' or 'feel' like humans, but act as prediction engines for text. 4. Hallucinations via a simple metaphor (e.g., a student confidently guessing instead of saying \"I don't know\"). 5. Why data quality matters (e.g., if it only reads sad books, it develops a sad worldview). 6. Core strengths (summarizing, rephrasing) vs weaknesses (no truth-understanding, weak common sense).",
+          "file_path": "BOOKLETS/PRIMER/PUBLICATIONS/01_What_AI_Really_Is_An_Intuitive_Guide_to_LLMs/01_prompt.md",
+          "final_output_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/01_What_AI_Really_Is_An_Intuitive_Guide_to_LLMs/README.md",
+          "url_slug_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/01_What_AI_Really_Is_An_Intuitive_Guide_to_LLMs/intro-what-is-ai.md"
+        }
+      ]
+    },
+    {
+      "booklet_number": 2,
+      "booklet_title": "Understanding the Building Blocks: Language, Tokens, and Data",
+      "folder": "BOOKLETS/PRIMER/PUBLICATIONS/02_Understanding_the_Building_Blocks_Language_Tokens_and_Data",
+      "sections": [
+        {
+          "section_title": "1. Introduction: The 'Lego Blocks' of AI Language",
+          "url_slug": "primer/blocks-tokens-data",
+          "short_question": "What are the basic building blocks of AI language systems, and how should a beginner think about them?",
+          "long_form_question": "Provide a foundational, conceptual explanation of LLM components with simple metaphors and no code/jargon. Must include: 1. 'Lego Blocks' analogy for tokens. 2. Data as the AI's library/collection of books. 3. Structured vs unstructured data (organized spreadsheet vs messy notes/books). 4. Model size without using the word 'parameters' (e.g., size of AI brain / capacity). 5. Fine-tuning as 'special lessons' on focused subject matter.",
+          "file_path": "BOOKLETS/PRIMER/PUBLICATIONS/02_Understanding_the_Building_Blocks_Language_Tokens_and_Data/01_prompt.md",
+          "final_output_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/02_Understanding_the_Building_Blocks_Language_Tokens_and_Data/README.md",
+          "url_slug_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/02_Understanding_the_Building_Blocks_Language_Tokens_and_Data/blocks-tokens-data.md"
+        }
+      ]
+    },
+    {
+      "booklet_number": 3,
+      "booklet_title": "How LLMs Get Smart: A Gentle Intro to Model Training",
+      "folder": "BOOKLETS/PRIMER/PUBLICATIONS/03_How_LLMs_Get_Smart_A_Gentle_Intro_to_Model_Training",
+      "sections": [
+        {
+          "section_title": "1. Introduction: How an AI 'Practices' to Get Better",
+          "url_slug": "primer/training-how-llms-learn",
+          "short_question": "How does an AI improve through practice, and what happens when it studies too little or too narrowly?",
+          "long_form_question": "Provide a beginner-friendly conceptual overview of training using analogies and without technical optimization terms. Must include: 1. Guess → feedback → improve loop (flashcard student analogy). 2. Why training takes so long (massive scale of practice). 3. Overfitting as memorizing test answers without understanding. 4. Underfitting as not studying enough. 5. Forgetting after new focused learning.",
+          "file_path": "BOOKLETS/PRIMER/PUBLICATIONS/03_How_LLMs_Get_Smart_A_Gentle_Intro_to_Model_Training/01_prompt.md",
+          "final_output_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/03_How_LLMs_Get_Smart_A_Gentle_Intro_to_Model_Training/README.md",
+          "url_slug_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/03_How_LLMs_Get_Smart_A_Gentle_Intro_to_Model_Training/training-how-llms-learn.md"
+        }
+      ]
+    },
+    {
+      "booklet_number": 4,
+      "booklet_title": "Thinking With Machines: How LLMs Generate Answers",
+      "folder": "BOOKLETS/PRIMER/PUBLICATIONS/04_Thinking_With_Machines_How_LLMs_Generate_Answers",
+      "sections": [
+        {
+          "section_title": "1. Introduction: How an AI Decides 'What's Next?'",
+          "url_slug": "primer/generation-how-llms-think",
+          "short_question": "How does an AI decide what to say next, and why do repetition loops happen?",
+          "long_form_question": "Provide an intuitive guide to answer generation without terms like inference/autoregressive/KV cache. Must include: 1. Super-autocomplete as next-word prediction. 2. Prompts as starting point. 3. Temperature as creativity slider. 4. Context limits as short-term memory limits (without saying 'window'). 5. Why repetition loops happen.",
+          "file_path": "BOOKLETS/PRIMER/PUBLICATIONS/04_Thinking_With_Machines_How_LLMs_Generate_Answers/01_prompt.md",
+          "final_output_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/04_Thinking_With_Machines_How_LLMs_Generate_Answers/README.md",
+          "url_slug_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/04_Thinking_With_Machines_How_LLMs_Generate_Answers/generation-how-llms-think.md"
+        }
+      ]
+    },
+    {
+      "booklet_number": 5,
+      "booklet_title": "Intro to Prompting: Talking to AI Effectively",
+      "folder": "BOOKLETS/PRIMER/PUBLICATIONS/05_Intro_to_Prompting_Talking_to_AI_Effectively",
+      "sections": [
+        {
+          "section_title": "1. Introduction: The 'Recipe' for a Good AI Answer",
+          "url_slug": "primer/prompting-basics",
+          "short_question": "What makes a prompt effective, and how can beginners consistently get better answers?",
+          "long_form_question": "Provide a practical beginner guide for better prompts using simple actionable rules. Must include: 1. Bad vs Good prompt examples. 2. Giving the AI a role. 3. Adding constraints (length, tone, audience). 4. Providing output examples/templates. 5. Iteration and rephrasing for improved results.",
+          "file_path": "BOOKLETS/PRIMER/PUBLICATIONS/05_Intro_to_Prompting_Talking_to_AI_Effectively/01_prompt.md",
+          "final_output_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/05_Intro_to_Prompting_Talking_to_AI_Effectively/README.md",
+          "url_slug_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/05_Intro_to_Prompting_Talking_to_AI_Effectively/prompting-basics.md"
+        }
+      ]
+    },
+    {
+      "booklet_number": 6,
+      "booklet_title": "Intro to RAG: Helping AI Learn From Your Information",
+      "folder": "BOOKLETS/PRIMER/PUBLICATIONS/06_Intro_to_RAG_Helping_AI_Learn_From_Your_Information",
+      "sections": [
+        {
+          "section_title": "1. Introduction: The 'Open-Book Test' for AI",
+          "url_slug": "primer/rag-open-book-analogy",
+          "short_question": "How does an open-book style setup help AI answer questions using your own documents?",
+          "long_form_question": "Provide a conceptual explanation using only plain language and avoiding technical retrieval terms. Must include: 1. Open-book vs closed-book test analogy. 2. Breaking long documents into smaller pieces using a simple metaphor. 3. Searching those pieces to find relevant passages. 4. Why this helps: private knowledge grounding + source citation.",
+          "file_path": "BOOKLETS/PRIMER/PUBLICATIONS/06_Intro_to_RAG_Helping_AI_Learn_From_Your_Information/01_prompt.md",
+          "final_output_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/06_Intro_to_RAG_Helping_AI_Learn_From_Your_Information/README.md",
+          "url_slug_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/06_Intro_to_RAG_Helping_AI_Learn_From_Your_Information/rag-open-book-analogy.md"
+        }
+      ]
+    },
+    {
+      "booklet_number": 7,
+      "booklet_title": "Beginner Agents: How AI Can Take Actions for You",
+      "folder": "BOOKLETS/PRIMER/PUBLICATIONS/07_Beginner_Agents_How_AI_Can_Take_Actions_for_You",
+      "sections": [
+        {
+          "section_title": "1. Introduction: Giving the AI 'Hands' to Help You",
+          "url_slug": "primer/agents-ai-with-hands",
+          "short_question": "What changes when AI is connected to tools so it can take actions, and where should human approval fit?",
+          "long_form_question": "Provide an intuitive introduction to agents using plain language. Must include: 1. Brain vs Hands analogy. 2. Tool examples (search, calculator, email). 3. Step-by-step agent task walkthrough (weather + email example). 4. Human approval as safety latch before final actions.",
+          "file_path": "BOOKLETS/PRIMER/PUBLICATIONS/07_Beginner_Agents_How_AI_Can_Take_Actions_for_You/01_prompt.md",
+          "final_output_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/07_Beginner_Agents_How_AI_Can_Take_Actions_for_You/README.md",
+          "url_slug_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/07_Beginner_Agents_How_AI_Can_Take_Actions_for_You/agents-ai-with-hands.md"
+        }
+      ]
+    },
+    {
+      "booklet_number": 8,
+      "booklet_title": "The Ecosystem: Intro to AI Tools & Workflows",
+      "folder": "BOOKLETS/PRIMER/PUBLICATIONS/08_The_Ecosystem_Intro_to_AI_Tools_Workflows",
+      "sections": [
+        {
+          "section_title": "1. Introduction: The 'AI Restaurant' - What Happens Behind the Scenes",
+          "url_slug": "primer/ecosystem-restaurant-analogy",
+          "short_question": "Using a restaurant metaphor, what are the major parts of an AI app and how do cloud vs local setups differ?",
+          "long_form_question": "Explain the AI stack using the Restaurant Analogy for non-technical users. Must include: 1. App = Menu, API = Waiter, Model = Kitchen. 2. Cloud vs Local (power/public vs slower/private). 3. Enterprise AI vs Personal AI using kitchen scale analogy.",
+          "file_path": "BOOKLETS/PRIMER/PUBLICATIONS/08_The_Ecosystem_Intro_to_AI_Tools_Workflows/01_prompt.md",
+          "final_output_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/08_The_Ecosystem_Intro_to_AI_Tools_Workflows/README.md",
+          "url_slug_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/08_The_Ecosystem_Intro_to_AI_Tools_Workflows/ecosystem-restaurant-analogy.md"
+        }
+      ]
+    },
+    {
+      "booklet_number": 9,
+      "booklet_title": "Beginner AI Evaluation: How to Know If AI Is Working",
+      "folder": "BOOKLETS/PRIMER/PUBLICATIONS/09_Beginner_AI_Evaluation_How_to_Know_If_AI_Is_Working",
+      "sections": [
+        {
+          "section_title": "1. Introduction: How to 'Fact-Check' Your AI",
+          "url_slug": "primer/evaluation-fact-checking",
+          "short_question": "How can a beginner check whether an AI answer is relevant, believable, and verifiable?",
+          "long_form_question": "Provide a non-technical checklist for evaluating answer quality. Must include: 1. Beginner QA checklist (plausibility, relevance, verification). 2. Hallucinations explained in plain terms. 3. A self-critique prompt users can ask AI when unsure.",
+          "file_path": "BOOKLETS/PRIMER/PUBLICATIONS/09_Beginner_AI_Evaluation_How_to_Know_If_AI_Is_Working/01_prompt.md",
+          "final_output_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/09_Beginner_AI_Evaluation_How_to_Know_If_AI_Is_Working/README.md",
+          "url_slug_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/09_Beginner_AI_Evaluation_How_to_Know_If_AI_Is_Working/evaluation-fact-checking.md"
+        }
+      ]
+    },
+    {
+      "booklet_number": 10,
+      "booklet_title": "Safety, Ethics & Responsible AI for Beginners",
+      "folder": "BOOKLETS/PRIMER/PUBLICATIONS/10_Safety_Ethics_Responsible_AI_for_Beginners",
+      "sections": [
+        {
+          "section_title": "1. Introduction: Being a 'Responsible Pilot' for AI",
+          "url_slug": "primer/safety-responsible-pilot",
+          "short_question": "What does responsible AI use look like for beginners, especially around bias, privacy, and made-up answers?",
+          "long_form_question": "Provide a conceptual safety/ethics guide for beginners. Must include: 1. AI engine vs human pilot analogy. 2. Bias through skewed reading sources. 3. Data safety (avoid sharing sensitive/private info in public AI). 4. Responsible use and accountability. 5. Confidently wrong answers as top beginner safety risk and need for verification.",
+          "file_path": "BOOKLETS/PRIMER/PUBLICATIONS/10_Safety_Ethics_Responsible_AI_for_Beginners/01_prompt.md",
+          "final_output_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/10_Safety_Ethics_Responsible_AI_for_Beginners/README.md",
+          "url_slug_file_path": "BOOKLETS/PRIMER/PUBLICATIONS/10_Safety_Ethics_Responsible_AI_for_Beginners/safety-responsible-pilot.md"
+        }
+      ]
+    }
+  ]
+}
