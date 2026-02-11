@@ -1,0 +1,62 @@
+{
+  "BOOKLET 1 — UV Environment Basics": {
+    "1. Introduction: Creating and Naming UV Virtual Environments": {
+      "url_slug": "how-do-i-create-a-custom-named-uv-virtual-environment",
+      "question": "How do I create a custom named UV virtual environment?"
+    }
+  },
+  "BOOKLET 2 — UV Activation Workflow": {
+    "1. Introduction: Activating and Deactivating UV Environments": {
+      "url_slug": "how-do-i-activate-or-deactivate-a-uv-virtual-environment",
+      "question": "How do I activate or deactivate a UV virtual environment?"
+    }
+  },
+  "BOOKLET 3 — Running Apps with UV": {
+    "1. Introduction: Executing Python in UV Environments": {
+      "url_slug": "how-do-i-run-a-python-application-inside-a-uv-virtual-environment",
+      "question": "How do I run a Python application inside a UV virtual environment?"
+    }
+  },
+  "BOOKLET 4 — Codex Productivity": {
+    "1. Introduction: Shortcut Patterns in Codex": {
+      "url_slug": "what-shortcuts-can-i-use-when-working-with-codex-for-example-at-and-slash",
+      "question": "What shortcuts can I use when working with Codex (for example, @ and /)?"
+    }
+  },
+  "BOOKLET 5 — Terminal Fundamentals": {
+    "1. Introduction: Essential CLI Navigation and File Commands": {
+      "url_slug": "what-are-common-terminal-cli-commands-for-navigating-viewing-editing-copying-and-moving-files",
+      "question": "What are common terminal CLI commands for navigating, viewing, editing, copying, and moving files?"
+    }
+  },
+  "BOOKLET 6 — Remote Access with SSH": {
+    "1. Introduction: Mac from PC Remote Access": {
+      "url_slug": "how-do-i-configure-a-mac-for-remote-access-from-a-pc-using-ssh",
+      "question": "How do I configure a Mac for remote access from a PC using SSH?"
+    }
+  },
+  "BOOKLET 7 — Git Foundations": {
+    "1. Introduction: Learning the Git Mindset": {
+      "url_slug": "introduction-the-git-mindset-in-the-agentic-era",
+      "question": "How should I build the right Git mindset in the agentic era before learning commands?"
+    }
+  },
+  "BOOKLET 8 — VS Code Setup": {
+    "1. Introduction: VS Code as an Engineering Platform": {
+      "url_slug": "introduction-the-operating-system-for-modern-engineering",
+      "question": "Why is VS Code considered the operating system for modern engineering, and how should beginners approach setup?"
+    }
+  },
+  "BOOKLET 9 — Markdown Workflows": {
+    "1. Introduction: Standard Markdown vs GFM": {
+      "url_slug": "introduction-the-divergence-of-lightweight-markup",
+      "question": "What is the practical difference between Standard Markdown and GitHub Flavored Markdown?"
+    }
+  },
+  "BOOKLET 10 — Agentic Engineering": {
+    "1. Introduction: Codex and GitHub Integration": {
+      "url_slug": "introduction-the-era-of-agentic-engineering",
+      "question": "What does the era of agentic engineering mean for developers using Codex and GitHub together?"
+    }
+  }
+}
