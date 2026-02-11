@@ -24,5 +24,6 @@ Sharpen your Git fundamentals with the curriculum paths below:
 
 - **Crash Course:** [Crash Course: Git — Index](GIT/Crash_Course_Git/00_Index.md)
 - **Zero-to-Mastery:** [Zero to Mastery: Git — Index](GIT/Zero_to_Mastery_Git/00_Index.md)
+- **Reference Guide:** [Git + AI Agents for Repository Content Management — Index](GIT/Git_AI_Agents_Repo_Management/00_Index.md)
 
 ![Learn with Lavigne](https://github.com/RLavigne42/Learn-with-Lavigne/blob/main/Learn_with_Lavigne.jpg)
