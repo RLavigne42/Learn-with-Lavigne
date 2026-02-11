@@ -1,0 +1,15 @@
+diff --git a/src/calc.py b/src/calc.py
+index e6f8a10..b8f62ad 100644
+--- a/src/calc.py
++++ b/src/calc.py
+@@ -1,6 +1,10 @@
+ def divide(a, b):
+-    return a / b
++    if b == 0:
++        raise ValueError("Cannot divide by zero")
++    return a / b
+ 
+ def format_result(value):
+-    return f"Result: {value}"
++    rounded = round(value, 2)
++    return f"Result: {rounded}"

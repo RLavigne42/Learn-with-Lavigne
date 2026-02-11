@@ -1,0 +1,21 @@
+Module 02 Authentication & Setup Evidence
+
+Record command outputs in this format:
+
+[UTC timestamp] command=git --version
+result=<paste output>
+
+[UTC timestamp] command=git config --global user.name
+result=<paste output>
+
+[UTC timestamp] command=git config --global user.email
+result=<paste output>
+
+[UTC timestamp] command=ssh -T git@github.com OR gh auth status
+result=<paste output>
+
+[UTC timestamp] command=git remote -v (practice repo)
+result=<paste output>
+
+[UTC timestamp] command=git push -u origin <branch>
+result=<paste output>

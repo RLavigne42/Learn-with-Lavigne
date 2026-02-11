@@ -1,0 +1,2 @@
+Module 02 authentication proof placeholder.
+Record command outputs here.
