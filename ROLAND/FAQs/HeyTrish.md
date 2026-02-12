@@ -46,7 +46,6 @@ Suggested order:
 2. **My first Codex Plan → PR workflow**
 3. **My first permissions and safety baseline**
 4. **My first PR review like a human**
-5. Continue with monorepo, troubleshooting, uv validation, and higher-risk readiness.
 
 Open the full set here:
 
@@ -54,17 +53,6 @@ Open the full set here:
 
 ### 3) If you are stuck mid-task
 Jump straight to the relevant deep-dive FAQ (auth, repo access, PR creation, merge conflicts, test verification), then return to your journey.
-
----
-
-## Framework principles we followed
-
-- **Plan-first over code-first** for safer execution.
-- **PR-based changes over direct commits** for auditability.
-- **Small diffs over big rewrites** for faster reviews.
-- **Human approval gates** before merge.
-- **Validation before merge** (tests/checks locally and/or CI).
-- **Progressive learning path** from setup to production-safe habits.
 
 ---
 
