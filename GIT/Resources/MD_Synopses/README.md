@@ -11,6 +11,7 @@ Each companion file includes:
 - [`Codex_GitHub_Integration_Guide.synopsis.md`](./Codex_GitHub_Integration_Guide.synopsis.md) — companion for `Codex GitHub Integration Guide.md`
 - [`Curriculum_Git_Training_Modules.synopsis.md`](./Curriculum_Git_Training_Modules.synopsis.md) — companion for `Curriculum_ Git Training Modules.md`
 - [`Git_and_GitHub_Configuration_Guide.synopsis.md`](./Git_and_GitHub_Configuration_Guide.synopsis.md) — companion for `Git and GitHub Configuration Guide.md`
+- [`Git_Course_Content_Research_Outline.synopsis.md`](./Git_Course_Content_Research_Outline.synopsis.md) — companion for `Git Course Content Research Outline.md`
 - [`Progressive_Training_Curriculum_for_Git_and_GitHub.synopsis.md`](./Progressive_Training_Curriculum_for_Git_and_GitHub.synopsis.md) — companion for `Progressive Training Curriculum for Git and GitHub.md`
 - [`Progressive_Training_Guide_Outline_for_Using_Codex_Tools_with_a_GitHub_Repository.synopsis.md`](./Progressive_Training_Guide_Outline_for_Using_Codex_Tools_with_a_GitHub_Repository.synopsis.md) — companion for `Progressive Training Guide Outline for Using Codex Tools with a GitHub Repository.md`
 - [`The_Definitive_Guide_to_Git_and_GitHub_Architecture_Configuration_and_Advanced_Workflow_Engineering.synopsis.md`](./The_Definitive_Guide_to_Git_and_GitHub_Architecture_Configuration_and_Advanced_Workflow_Engineering.synopsis.md) — companion for `The Definitive Guide to Git and GitHub_ Architecture, Configuration, and Advanced Workflow Engineering.md`
