@@ -1,0 +1,772 @@
+{
+  "course_title": "Complete Git Command Mastery",
+  "total_volumes": 3,
+  "volumes": [
+    {
+      "volume_number": 1,
+      "volume_title": "Core Essentials & Daily Workflow",
+      "description": "The fundamental commands required to contribute to a repository.",
+      "sections": [
+        {
+          "file_name": "00_Index.md",
+          "title": "Course Overview & Installation",
+          "topics": [
+            "What is Git",
+            "Installation on Windows",
+            "Version Check",
+            "Getting Help"
+          ],
+          "commands": [
+            {
+              "name": "git --version",
+              "usage": "Check installed version"
+            },
+            {
+              "name": "version",
+              "usage": "Display version information about Git"
+            },
+            {
+              "name": "help",
+              "usage": "Display help information about Git"
+            },
+            {
+              "name": "update-git-for-windows",
+              "usage": "Update Git for Windows specifically"
+            }
+          ]
+        },
+        {
+          "file_name": "01_Intro_The_Git_Mindset.md",
+          "title": "The Git Mindset",
+          "topics": [
+            "Distributed Version Control",
+            "Porcelain vs Plumbing concepts",
+            "The Three States"
+          ],
+          "commands": [
+            {
+              "name": "git",
+              "usage": "Main command entry point (structure overview)"
+            },
+            {
+              "name": "gui",
+              "usage": "A portable graphical interface to Git"
+            },
+            {
+              "name": "gitk",
+              "usage": "The Git repository browser"
+            }
+          ]
+        },
+        {
+          "file_name": "02_Setup_Identity_And_Config.md",
+          "title": "Setup Identity & Configuration",
+          "topics": [
+            "Global vs Local Config",
+            "Credentials",
+            "Variables"
+          ],
+          "commands": [
+            {
+              "name": "config",
+              "usage": "Get and set repository or global options"
+            },
+            {
+              "name": "credential",
+              "usage": "Retrieve and store user credentials"
+            },
+            {
+              "name": "credential-manager",
+              "usage": "External credential helper"
+            },
+            {
+              "name": "var",
+              "usage": "Show a Git logical variable"
+            }
+          ]
+        },
+        {
+          "file_name": "03_Init_Clone_Status_Add_Commit.md",
+          "title": "Initializing & Creating History",
+          "topics": [
+            "Starting Repos",
+            "Staging Area",
+            "Committing"
+          ],
+          "commands": [
+            {
+              "name": "init",
+              "usage": "Create an empty Git repository"
+            },
+            {
+              "name": "clone",
+              "usage": "Clone a repository into a new directory"
+            },
+            {
+              "name": "status",
+              "usage": "Show the working tree status"
+            },
+            {
+              "name": "add",
+              "usage": "Add file contents to the index"
+            },
+            {
+              "name": "commit",
+              "usage": "Record changes to the repository"
+            }
+          ]
+        },
+        {
+          "file_name": "04_Branching_Merging_Conflicts.md",
+          "title": "Branching & Merging",
+          "topics": [
+            "Branch Management",
+            "Merging Strategies",
+            "Conflict Resolution"
+          ],
+          "commands": [
+            {
+              "name": "branch",
+              "usage": "List, create, or delete branches"
+            },
+            {
+              "name": "switch",
+              "usage": "Switch branches"
+            },
+            {
+              "name": "checkout",
+              "usage": "Switch branches or restore working tree files"
+            },
+            {
+              "name": "merge",
+              "usage": "Join two or more development histories"
+            },
+            {
+              "name": "mergetool",
+              "usage": "Run merge conflict resolution tools"
+            },
+            {
+              "name": "diff",
+              "usage": "Show changes between commits/trees"
+            }
+          ]
+        },
+        {
+          "file_name": "05_Remotes_Push_Pull_Fetch.md",
+          "title": "Remote Repositories",
+          "topics": [
+            "Connecting to Remotes",
+            "Syncing Data"
+          ],
+          "commands": [
+            {
+              "name": "remote",
+              "usage": "Manage set of tracked repositories"
+            },
+            {
+              "name": "fetch",
+              "usage": "Download objects and refs from another repository"
+            },
+            {
+              "name": "pull",
+              "usage": "Fetch from and integrate with another repository"
+            },
+            {
+              "name": "push",
+              "usage": "Update remote refs along with associated objects"
+            }
+          ]
+        },
+        {
+          "file_name": "06_Undo_Reset_Revert_Restore.md",
+          "title": "Undoing Changes",
+          "topics": [
+            "Fixing Mistakes",
+            "Moving Files",
+            "Cleaning"
+          ],
+          "commands": [
+            {
+              "name": "restore",
+              "usage": "Restore working tree files"
+            },
+            {
+              "name": "reset",
+              "usage": "Reset current HEAD to the specified state"
+            },
+            {
+              "name": "revert",
+              "usage": "Revert some existing commits"
+            },
+            {
+              "name": "rm",
+              "usage": "Remove files from the working tree and from the index"
+            },
+            {
+              "name": "mv",
+              "usage": "Move or rename a file, a directory, or a symlink"
+            },
+            {
+              "name": "clean",
+              "usage": "Remove untracked files from the working tree"
+            }
+          ]
+        },
+        {
+          "file_name": "07_Stash_Tags_Ignore.md",
+          "title": "Stashing, Tagging & Ignoring",
+          "topics": [
+            "Temporary Saves",
+            "Releases",
+            "Excluding Files"
+          ],
+          "commands": [
+            {
+              "name": "stash",
+              "usage": "Stash the changes in a dirty working directory away"
+            },
+            {
+              "name": "tag",
+              "usage": "Create, list, delete or verify tags"
+            },
+            {
+              "name": "check-ignore",
+              "usage": "Debug gitignore / exclude files"
+            },
+            {
+              "name": "check-attr",
+              "usage": "Display gitattributes information"
+            }
+          ]
+        },
+        {
+          "file_name": "08_Workflows_Hygiene_Tips.md",
+          "title": "Workflows & Hygiene",
+          "topics": [
+            "Project History",
+            "Best Practices"
+          ],
+          "commands": [
+            {
+              "name": "log",
+              "usage": "Show commit logs (Basic usage)"
+            },
+            {
+              "name": "shortlog",
+              "usage": "Summarize git log output"
+            },
+            {
+              "name": "notes",
+              "usage": "Add or inspect object notes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "volume_number": 2,
+      "volume_title": "Advanced Management, Auditing & Repair",
+      "description": "Deep dives into history rewriting, debugging, and complex project structures.",
+      "sections": [
+        {
+          "file_name": "00_Index.md",
+          "title": "Volume 2 Overview",
+          "topics": [
+            "Summary of Advanced Tools"
+          ],
+          "commands": []
+        },
+        {
+          "file_name": "01_Advanced_History_Audit.md",
+          "title": "Deep History & Attribution",
+          "topics": [
+            "Blame",
+            "Reflog",
+            "Who changed what"
+          ],
+          "commands": [
+            {
+              "name": "blame",
+              "usage": "Show what revision and author last modified each line"
+            },
+            {
+              "name": "annotate",
+              "usage": "Annotate file lines with commit information"
+            },
+            {
+              "name": "reflog",
+              "usage": "Manage reflog information (History of HEAD)"
+            },
+            {
+              "name": "whatchanged",
+              "usage": "Show logs with differences each commit introduces"
+            },
+            {
+              "name": "show",
+              "usage": "Show various types of objects (commits, trees, blobs)"
+            }
+          ]
+        },
+        {
+          "file_name": "02_Search_And_Comparison.md",
+          "title": "Advanced Search & Comparison",
+          "topics": [
+            "Grepping",
+            "Diff Tools",
+            "Range Diffs"
+          ],
+          "commands": [
+            {
+              "name": "grep",
+              "usage": "Print lines matching a pattern"
+            },
+            {
+              "name": "difftool",
+              "usage": "Show changes using common diff tools"
+            },
+            {
+              "name": "range-diff",
+              "usage": "Compare two commit ranges"
+            },
+            {
+              "name": "describe",
+              "usage": "Give an object a human readable name"
+            },
+            {
+              "name": "name-rev",
+              "usage": "Find symbolic names for given revs"
+            }
+          ]
+        },
+        {
+          "file_name": "03_Rewriting_History.md",
+          "title": "Rewriting History",
+          "topics": [
+            "Rebase",
+            "Cherry Pick",
+            "Replace"
+          ],
+          "commands": [
+            {
+              "name": "rebase",
+              "usage": "Reapply commits on top of another base tip"
+            },
+            {
+              "name": "cherry-pick",
+              "usage": "Apply the changes introduced by some existing commits"
+            },
+            {
+              "name": "replace",
+              "usage": "Create, list, delete refs to replace objects"
+            },
+            {
+              "name": "filter-branch",
+              "usage": "Rewrite branches (Legacy/Powerful)"
+            }
+          ]
+        },
+        {
+          "file_name": "04_Debugging_And_Health.md",
+          "title": "Debugging & Repository Health",
+          "topics": [
+            "Bisecting bugs",
+            "Repo corruption checks"
+          ],
+          "commands": [
+            {
+              "name": "bisect",
+              "usage": "Use binary search to find the commit that introduced a bug"
+            },
+            {
+              "name": "fsck",
+              "usage": "Verifies the connectivity and validity of objects"
+            },
+            {
+              "name": "gc",
+              "usage": "Cleanup unnecessary files and optimize local repository"
+            },
+            {
+              "name": "prune",
+              "usage": "Prune all unreachable objects from the object database"
+            },
+            {
+              "name": "maintenance",
+              "usage": "Run tasks to optimize Git repository data"
+            }
+          ]
+        },
+        {
+          "file_name": "05_Complex_Workspaces.md",
+          "title": "Complex Workspaces & Large Repos",
+          "topics": [
+            "Submodules",
+            "Worktrees",
+            "Large Files"
+          ],
+          "commands": [
+            {
+              "name": "submodule",
+              "usage": "Initialize, update or inspect submodules"
+            },
+            {
+              "name": "worktree",
+              "usage": "Manage multiple working trees"
+            },
+            {
+              "name": "sparse-checkout",
+              "usage": "Reduce your working tree to a subset of files"
+            },
+            {
+              "name": "lfs",
+              "usage": "Git Large File Storage"
+            },
+            {
+              "name": "scalar",
+              "usage": "Tool for managing large Git repositories"
+            }
+          ]
+        },
+        {
+          "file_name": "06_Patching_And_Email.md",
+          "title": "Patching & Email Workflows",
+          "topics": [
+            "Email based workflow",
+            "Manual patching"
+          ],
+          "commands": [
+            {
+              "name": "format-patch",
+              "usage": "Prepare patches for e-mail submission"
+            },
+            {
+              "name": "am",
+              "usage": "Apply a series of patches from a mailbox"
+            },
+            {
+              "name": "apply",
+              "usage": "Apply a patch to files and/or to the index"
+            },
+            {
+              "name": "request-pull",
+              "usage": "Generates a summary of pending changes"
+            },
+            {
+              "name": "send-email",
+              "usage": "Send a collection of patches as emails"
+            }
+          ]
+        },
+        {
+          "file_name": "07_Archiving_And_Export.md",
+          "title": "Archiving & Exporting",
+          "topics": [
+            "Bundles",
+            "Archives",
+            "Imports"
+          ],
+          "commands": [
+            {
+              "name": "archive",
+              "usage": "Create an archive of files from a named tree"
+            },
+            {
+              "name": "bundle",
+              "usage": "Move objects and refs by archive"
+            },
+            {
+              "name": "fast-export",
+              "usage": "Git data exporter"
+            },
+            {
+              "name": "fast-import",
+              "usage": "Backend for fast Git data importers"
+            }
+          ]
+        },
+        {
+          "file_name": "08_Signatures_And_Verification.md",
+          "title": "Signatures & Verification",
+          "topics": [
+            "GPG",
+            "Trust"
+          ],
+          "commands": [
+            {
+              "name": "verify-commit",
+              "usage": "Check the GPG signature of commits"
+            },
+            {
+              "name": "verify-tag",
+              "usage": "Check the GPG signature of tags"
+            },
+            {
+              "name": "verify-pack",
+              "usage": "Validate packed Git archive files"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "volume_number": 3,
+      "volume_title": "Git Internals, Plumbing & Scripts",
+      "description": "Low-level commands for tool builders and understanding the core engine.",
+      "sections": [
+        {
+          "file_name": "00_Index.md",
+          "title": "Volume 3 Overview",
+          "topics": [
+            "The Git Object Model"
+          ],
+          "commands": []
+        },
+        {
+          "file_name": "01_The_Object_Database.md",
+          "title": "The Object Database",
+          "topics": [
+            "Blobs",
+            "Trees",
+            "Hashes"
+          ],
+          "commands": [
+            {
+              "name": "hash-object",
+              "usage": "Compute object ID and optionally create object"
+            },
+            {
+              "name": "cat-file",
+              "usage": "Provide contents or details of repository objects"
+            },
+            {
+              "name": "ls-tree",
+              "usage": "List the contents of a tree object"
+            },
+            {
+              "name": "read-tree",
+              "usage": "Reads tree information into the index"
+            },
+            {
+              "name": "write-tree",
+              "usage": "Create a tree object from the current index"
+            }
+          ]
+        },
+        {
+          "file_name": "02_Index_And_Commits_LowLevel.md",
+          "title": "Index & Commits (Plumbing)",
+          "topics": [
+            "Manual commit creation",
+            "Index manipulation"
+          ],
+          "commands": [
+            {
+              "name": "update-index",
+              "usage": "Register file contents in the working tree to the index"
+            },
+            {
+              "name": "ls-files",
+              "usage": "Show information about files in the index"
+            },
+            {
+              "name": "commit-tree",
+              "usage": "Create a new commit object"
+            },
+            {
+              "name": "commit-graph",
+              "usage": "Write and verify Git commit-graph files"
+            },
+            {
+              "name": "mktree",
+              "usage": "Build a tree-object from ls-tree formatted text"
+            },
+            {
+              "name": "mktag",
+              "usage": "Creates a tag object with extra validation"
+            }
+          ]
+        },
+        {
+          "file_name": "03_Ref_Manipulation.md",
+          "title": "Reference Manipulation",
+          "topics": [
+            "Heads",
+            "Tags",
+            "Symbolic Refs"
+          ],
+          "commands": [
+            {
+              "name": "update-ref",
+              "usage": "Update the object name stored in a ref safely"
+            },
+            {
+              "name": "show-ref",
+              "usage": "List references in a local repository"
+            },
+            {
+              "name": "symbolic-ref",
+              "usage": "Read, modify and delete symbolic refs"
+            },
+            {
+              "name": "for-each-ref",
+              "usage": "Output information on each ref"
+            },
+            {
+              "name": "pack-refs",
+              "usage": "Pack heads and tags for efficient repository access"
+            }
+          ]
+        },
+        {
+          "file_name": "04_Packfiles_And_Storage.md",
+          "title": "Packfiles & Storage Optimization",
+          "topics": [
+            "Pack objects",
+            "Unpack",
+            "Redundancy"
+          ],
+          "commands": [
+            {
+              "name": "pack-objects",
+              "usage": "Create a packed archive of objects"
+            },
+            {
+              "name": "unpack-objects",
+              "usage": "Unpack objects from a packed archive"
+            },
+            {
+              "name": "index-pack",
+              "usage": "Build pack index file for an existing packed archive"
+            },
+            {
+              "name": "repack",
+              "usage": "Pack unpacked objects in a repository"
+            },
+            {
+              "name": "multi-pack-index",
+              "usage": "Write and verify multi-pack-indexes"
+            }
+          ]
+        },
+        {
+          "file_name": "05_Merge_Internals.md",
+          "title": "Merge Internals",
+          "topics": [
+            "Merge Base",
+            "Three-way merges"
+          ],
+          "commands": [
+            {
+              "name": "merge-base",
+              "usage": "Find as good common ancestors as possible for a merge"
+            },
+            {
+              "name": "merge-file",
+              "usage": "Run a three-way file merge"
+            },
+            {
+              "name": "merge-tree",
+              "usage": "Perform merge without touching index or working tree"
+            },
+            {
+              "name": "merge-index",
+              "usage": "Run a merge for files needing merging"
+            }
+          ]
+        },
+        {
+          "file_name": "06_Networking_Plumbing.md",
+          "title": "Networking Plumbing",
+          "topics": [
+            "Protocols",
+            "Daemons",
+            "Backends"
+          ],
+          "commands": [
+            {
+              "name": "daemon",
+              "usage": "A really simple server for Git repositories"
+            },
+            {
+              "name": "http-backend",
+              "usage": "Server side implementation of Git over HTTP"
+            },
+            {
+              "name": "send-pack",
+              "usage": "Push objects over Git protocol to another repository"
+            },
+            {
+              "name": "fetch-pack",
+              "usage": "Receive missing objects from another repository"
+            },
+            {
+              "name": "ls-remote",
+              "usage": "List references in a remote repository"
+            }
+          ]
+        },
+        {
+          "file_name": "07_Scripting_Helpers.md",
+          "title": "Scripting Helpers",
+          "topics": [
+            "Shell scripts",
+            "Parsing",
+            "Formatting"
+          ],
+          "commands": [
+            {
+              "name": "rev-parse",
+              "usage": "Pick out and massage parameters"
+            },
+            {
+              "name": "rev-list",
+              "usage": "Lists commit objects in reverse chronological order"
+            },
+            {
+              "name": "sh-setup",
+              "usage": "Common Git shell script setup code"
+            },
+            {
+              "name": "stripspace",
+              "usage": "Remove unnecessary whitespace"
+            },
+            {
+              "name": "column",
+              "usage": "Display data in columns"
+            },
+            {
+              "name": "hook",
+              "usage": "Run git hooks"
+            }
+          ]
+        },
+        {
+          "file_name": "08_Legacy_And_Interop.md",
+          "title": "Legacy & Interoperability",
+          "topics": [
+            "SVN",
+            "CVS",
+            "P4"
+          ],
+          "commands": [
+            {
+              "name": "svn",
+              "usage": "Bidirectional operation between Subversion and Git"
+            },
+            {
+              "name": "cvsimport",
+              "usage": "Salvage your data out of another SCM"
+            },
+            {
+              "name": "p4",
+              "usage": "Import from and submit to Perforce repositories"
+            },
+            {
+              "name": "quiltimport",
+              "usage": "Applies a quilt patchset onto the current branch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
