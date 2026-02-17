@@ -1,5 +1,3 @@
-````markdown
-name=GIT/beginner.md
 # Basic Git Commands — Beginner Guide
 
 This short guide explains basic Git commands and shows simple examples so you can get started quickly.
@@ -139,4 +137,3 @@ Common notes and best practices:
 - Use `.gitignore` to exclude files you don't want to commit (e.g., build artifacts, secrets).
 
 That's it — a minimal set of commands to get you started with Git. Happy coding!
-````
