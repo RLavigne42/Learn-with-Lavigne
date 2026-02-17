@@ -135,5 +135,3 @@ Common notes and best practices:
 - Use branches (e.g., `feature-x`) for new work: `git checkout -b feature-x` (or `git switch -c feature-x`).
 - Pull often to keep your local branch up to date before starting new work.
 - Use `.gitignore` to exclude files you don't want to commit (e.g., build artifacts, secrets).
-
-That's it — a minimal set of commands to get you started with Git. Happy coding!
